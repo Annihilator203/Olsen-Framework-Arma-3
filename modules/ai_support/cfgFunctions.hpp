@@ -1,0 +1,117 @@
+class COMPONENT {
+	tag = COMPONENT;
+
+    class Artillery {
+		file = "modules\ai_support\Artillery\functions";
+		class initArtillery{};
+     };
+
+	class CAS {
+		file = "modules\ai_support\CAS\functions";
+		class initCAS{};
+     };
+
+	class Spotter {
+		file = "modules\ai_support\Spotter\functions";
+		class initSpotter{};
+     };
+	
+	class Spawner {
+		file = "modules\ai_support\Spawner\functions";
+		
+        class initSpawner{};
+        class Spawner {};
+		class CreateWaypoints {};
+		class CivilianEventhandler {};
+		class Rebel {};
+		class CheckSpawnStop {};
+		class LambsTask {};
+		class RandomSpawnDelay {};
+		class TakeCover {};
+		class StayDown {};
+		class Panic {};
+		class FleeHide {};
+		class CheckMovement {};
+		class ReturnToBase {};
+		class CreateDebugMarker {};
+		class CreateDebugLine {};
+		class DeleteOnDestination {};
+		class DeleteUnitAndVehicle {};
+		class ResetLambsTask {};
+		class PlayersNear {};
+		class FindAutomaticSpawnPosition {};
+		class BalancingChecks {};
+		class SpawnGroup {};
+		class LambsTaskOnDestination {};
+		class enableCrewAi {};
+		class ResetStaticAI {};
+		class SplitDriverGroup {};
+		class DisableAI {};
+        class TargetPositionReached {};
+		class getNearUnits {};
+		class Engage {};
+		class GetCenter {};
+		class Follow {};
+		class FindHighestPosition {};
+		class FindLowestPosition {};
+		class FindForestPosition {};
+		class HoldFire {};
+		class stringReplace {};
+		class deleteGroupWhenEmpty {};
+		class RushTargetPos {};
+		class Guard {};
+		class GlobalUnitCountCheck {};
+		class CreateLandingZone {};
+		class Paradrop {};
+		class RandomPatrol {};
+		class FindUrbanArea {};
+		class 360Formation {};
+		class CheckTroopsDisembarked {};
+		class IsVehicleArmed {};
+		class IsInVehicle {};
+		class GroupSettings {};
+		class CheckIsAirborne {};
+		class CreateCustomLoadout {};
+		class CreateVehicleCrew {};
+		class SetFuelConsume {};
+		class CheckGroupCommands {};
+		class ServerFpsCheck {};
+		class KeepLeaderDistance {};
+		class KillStuckUnit {};
+		class GetSyncedMovepositions {};
+		class KillUnconscious {};
+		class MoveToSecondaryTargetPos {};
+		class AddResetAiEventhandlers {};
+		class EngageWhenEnemyNear {};
+		class ResetRush {};
+		class StayInAreas {};
+		class SetAreaTriggerTime {};
+		class TriggerRadiusCheckUpdate {};
+		class BalancingChecksUpate {};
+		class PlayerNearCheckUpdate {};
+		class FleeHideCheck {};
+		class Land {};
+		class WaitforCancelTrigger {};
+		class MoveToArea {};
+		class UnloadCargo {};
+		class DelpoyStaticWeapons {};
+		class SpotterChecks {};
+		class ArtilleryStrike {};
+		class IsValidTarget {};
+		class vehicleAmmoCheck {};
+		class FindStringInString {};
+		class SetSkills {};
+		class doFire {};
+		class TakeWeapons {};
+		class ActDamageSum {};
+		class isGunship {};
+		class CAS {};
+		class guidedMissile {};
+		class GetAvailableArty {};
+		class GetAvailableCAS {};
+		class getVehicleAmmo {};
+		class PackStaticWeapon {};
+		class KillTrigger {};
+		class MoveObject {};
+     };
+};
